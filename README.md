@@ -13,4 +13,4 @@ The predictor takes into account the following factors:
 - 📆 **Seasonal Factors**: Regular variations in traffic and ridership due to different times of the year (e.g., school terms, summer vacations).  
 - 🎉 **Festivities and Big Crowds**: Planned events, festivals, or large gatherings that might increase traffic or pedestrian activity near transport routes.  
 - 🏖️ **Public Holidays**: Reduced service schedules and potential for increased leisure travel.
-
+- I AM GOATED
