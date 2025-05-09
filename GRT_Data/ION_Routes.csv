@@ -1,0 +1,156 @@
+﻿OBJECTID,Stage1,RouteLocationStage1,Stage2,RouteLocationStage2,TravelDirection,Oneway,RouteStatus,EditDate
+298,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+300,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+301,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+302,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2018/12/19 16:26:29+00
+303,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+304,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+305,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+308,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+309,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+310,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2018/12/19 16:26:24+00
+311,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+312,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+313,LRT,Centre,LRT,Centre,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+314,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+315,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+316,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+317,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+318,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+319,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+320,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+321,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+322,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+323,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+324,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+325,LRT,Rail Corridor,LRT,Rail Corridor,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+326,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+327,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2018/12/19 16:18:56+00
+328,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+329,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+331,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+332,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+333,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+334,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+335,LRT,Curbside,LRT,Curbside,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+336,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+337,aBRT,Curbside,,,Southbound,Yes,Planned,2018/12/18 10:46:22+00
+339,LRT,Curbside,LRT,Curbside,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+340,LRT,Curbside,LRT,Curbside,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+341,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+342,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+343,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+344,,,LRT,Rail Corridor,Bi-Directional,No,Planned,2018/12/19 15:47:40+00
+345,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+346,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+347,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+348,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+349,LRT,Rail Corridor,LRT,Rail Corridor,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+350,LRT,Centre,LRT,Centre,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+351,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+352,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+353,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+354,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+355,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+356,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+357,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+358,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+359,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+360,aBRT,Curbside,,Curbside,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+361,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+362,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+363,aBRT,Curbside,,,Bi-Directional,No,Planned,2017/03/28 11:41:59+00
+364,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+366,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+367,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+368,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+369,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+370,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+371,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+372,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+373,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+374,LRT,Curbside,LRT,Curbside,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+375,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+376,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+377,LRT,Curbside,LRT,Curbside,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+378,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+379,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+380,,,LRT,Centre,Bi-Directional,No,Planned,2018/12/19 15:25:33+00
+381,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+382,aBRT,Curbside,LRT,Centre,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+383,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+384,,,LRT,Off Road,Bi-Directional,No,Planned,2018/12/18 09:09:34+00
+385,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+386,aBRT,Curbside,,Curbside,Bi-Directional,No,Planned,2018/12/19 16:25:07+00
+388,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+389,LRT,Centre,LRT,Centre,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+390,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+392,,,LRT,Off Road,Bi-Directional,No,Planned,2018/12/19 15:27:16+00
+393,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+394,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+395,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+396,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+397,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+398,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+399,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+400,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+401,aBRT,Curbside,,Curbside,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+402,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+403,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+404,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+405,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+406,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+407,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+408,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+409,LRT,Centre,LRT,Centre,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+410,,,LRT,Rail Corridor,Bi-Directional,No,Planned,2018/12/19 16:22:34+00
+411,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+412,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2018/12/19 16:19:05+00
+413,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+414,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+415,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+416,LRT,Rail Corridor,LRT,Rail Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+417,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+418,aBRT,Curbside,,,Southbound,Yes,Planned,2015/07/30 09:50:41+00
+419,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+420,LRT,Rail Corridor,LRT,Rail Corridor,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+421,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+422,LRT,Centre,LRT,Centre,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+423,LRT,Centre,LRT,Centre,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+424,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+425,LRT,Rail Corridor,LRT,Rail Corridor,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+426,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+427,LRT,Curbside,LRT,Curbside,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+428,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+429,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+430,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+431,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+432,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+433,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+434,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+435,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+436,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+437,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+438,,,LRT,Centre,Bi-Directional,No,Planned,2024/05/01 15:32:16+00
+440,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+441,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+442,LRT,Centre,LRT,Centre,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+443,LRT,Rail Corridor,LRT,Rail Corridor,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+444,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+445,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+446,LRT,Centre,LRT,Centre,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+447,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+448,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+449,LRT,Curbside,LRT,Curbside,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+450,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+451,aBRT,Curbside,,Centre,Bi-Directional,No,Planned,2017/04/21 13:24:16+00
+452,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+453,LRT,Rail Corridor,LRT,Rail Corridor,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+454,aBRT,Curbside,,,Bi-Directional,No,Planned,2015/07/30 09:50:41+00
+455,LRT,Curbside,LRT,Curbside,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+456,LRT,Hydro Corridor,LRT,Hydro Corridor,Southbound,Yes,Constructed,2018/12/19 16:28:38+00
+457,LRT,Hydro Corridor,LRT,Hydro Corridor,Northbound,Yes,Constructed,2018/12/19 16:28:38+00
+458,aBRT,Curbside,,,Northbound,Yes,Planned,2015/07/30 09:50:41+00
+460,,,LRT,Curbside,Bi-Directional,No,Planned,2018/12/18 09:13:09+00
+461,,,LRT,Centre,Bi-Directional,No,Planned,2024/05/01 15:32:16+00
+462,,,LRT,Centre,Bi-Directional,No,Planned,2024/05/01 15:32:16+00

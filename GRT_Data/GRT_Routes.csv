@@ -1,0 +1,106 @@
+﻿OBJECTID,Route,Leg,FullName,Direction,Length,City,Comment,Type,RouteID
+348,61,,Preston,Eastbound,12.93706656,Kitchener/Cambridge,"Route changes Sep 2, 2019",30,283
+350,36,,Thomas Slee,Westbound,6.06650635,Kitchener,"New route Sep 2, 2019",30,280
+351,61,,Preston,Westbound,11.31371134,Kitchener/Cambridge,"Route changed Sep 2, 2019",30,282
+353,36,,Thomas Slee,Eastbound,6.20622383,Kitchener,"New route Sep 2, 2019",30,281
+354,206,iXpress,iXpress Coronation,Southbound,19.51385198,Kitchener/Cambridge,"new route Sep 2, 2019",15,286
+355,206,iXpress,iXpress Coronation,Northbound,19.40760224,Kitchener/Cambridge,"new route Sep 2, 2019",15,287
+357,57,,Blair,Southbound,12.21255803,Kitchener/Cambridge,"New route Sep 2, 2019",30,291
+358,67,,Eagle-Pinebush,Westbound,16.38675965,Kitchener/Cambridge,"revised route Sep 2, 2019",30,297
+359,57,,Blair,Northbound,11.54883649,Kitchener/Cambridge,"New route Sep 2, 2019",30,290
+361,67,,Eagle-Pinebush,Eastbound,16.85625249,Kitchener/Cambridge,"revised route Sep 2, 2019",30,296
+362,55,,Grand Ridge,Clockwise,9.82658549,Cambridge,"Route changed Sep 2, 2019",30,289
+363,55,,Grand Ridge,Counterclockwise,10.34451578,Cambridge,"Route changed Sep 2, 2019",30,288
+367,20,,Victoria-Frederick,Westbound,32.83997559,Kitchener,"revised route Jun 24, 2019",15,907
+368,33,,Huron,Westbound,31.06468495,Kitchener,,30,922
+369,26,,Trillium,Loop,12.12797657,Kitchener,"revised route Jun 24, 2019",30,913
+370,28,,Franklin North,Southbound,5.64918312,Kitchener,"new route Jun 24, 2019",40,916
+371,23,,Idlewood,Southbound,19.3835279,Kitchener,,30,955
+372,201,iXpress,Fischer-Hallman,Southbound,54.41317759,Kitchener/Waterloo,,10,969
+373,16,,Strasburg-Belmont,Peak Trippers,11.28756469,Kitchener/Waterloo,"revised route Jun 24, 2019",30,904
+374,12,,Westmount,Northbound,16.47411014,Kitchener/Waterloo,"revised route Jun 24, 2019",15,898
+375,12,,Westmount,Southbound,16.47411014,Kitchener/Waterloo,"revised route Jun 24, 2019",15,899
+376,31,,Columbia,Eastbound,16.64647215,Waterloo,"revised route Jun 24, 2019",30,921
+377,76,busPLUS,Doon Mills (to CCOL),Southbound,6.51096113,Kitchener,"revised route Sep 2, 2019",30,937
+379,10,A,Pioneer (via Old Carriage),Southbound,8.07717939,Kitchener,,15,894
+380,301,ION,ION LRT,Northbound,32.49587665,Kitchener/Waterloo,"New route Jun 21, 2019",10,947
+381,29,,Keats-University,Northbound,17.18082121,Waterloo,"revised route Jun 24, 2019",30,917
+383,21,,Elmira,Southbound,14.86364841,Waterloo/Woolwich,,30,909
+384,56,,Dunbar,CounterClockwise,10.66313111,Cambridge,,30,961
+385,6,,Bridge-Courtland,Northbound,18.72663319,Kitchener/Waterloo,"revised route Jun 24, 2019",30,887
+386,34,,Bingemans,Westbound,15.22550764,Kitchener,"revised route Jun 24, 2019",30,923
+387,22,,Laurentian West,Eastbound,8.94619504,Kitchener,"revised route Jun 24, 2019",30,910
+388,302,ION,ION BUS,Northbound,41.60888937,Kitchener/Cambridge,,10,948
+389,204,iXpress,Highland-Victoria,Westbound,16.50307139,Kitchener,,15,945
+390,77,busPLUS,Wilmot,Westbound,40.47720612,Kitchener/Wilmot,,30,939
+391,8,,Weber,Southbound,12.42765259,Kitchener/Waterloo,"revised route Jun 24, 2019",15,891
+392,201,iXpress,Fischer-Hallman,Northbound,54.41317759,Kitchener/Waterloo,,10,941
+394,23,,Idlewood,Northbound,19.3835279,Kitchener,,30,912
+396,204,iXpress,Highland-Victoria,Eastbound,16.57059141,Kitchener,,15,944
+398,16,,Strasburg-Belmont,Southbound,40.84035518,Kitchener/Waterloo,"revised route Jun 24, 2019",30,953
+399,10,,Pioneer (via Mill Park),Northbound,8.64453054,Kitchener,,15,896
+400,301,ION,ION LRT,Southbound,32.49587665,Kitchener/Waterloo,"New route Jun 21, 2019",10,972
+402,8,,Weber,Northbound,12.21048642,Kitchener/Waterloo,"revised route Jun 24, 2019",15,890
+403,19,B,Hazel (to Northfield Stn.),Loop,12.79266048,Waterloo,"new route Jun 24, 2019",30,905
+405,4,,Glasgow-Margaret,Eastbound,21.82859232,Kitchener/Waterloo,"revised route Jun 24, 2019",30,951
+406,19,A,Hazel (to St Jacobs Market),Loop,14.21189441,Waterloo,"new route Jun 24, 2019",30,906
+407,51,A,Hespeler (via Fisher Mills),,27.82126797,Cambridge,,30,924
+408,31,,Columbia,Westbound,16.71434542,Waterloo,"revised route Jun 24, 2019",30,920
+409,7,,King,Southbound,27.87437028,Kitchener/Waterloo,"revised route Jun 24, 2019",15,952
+410,16,,Strasburg-Belmont,Northbound,40.84035518,Kitchener/Waterloo,"revised route Jun 24, 2019",30,903
+412,30,,Ring Road,Loop,2.73778133,Waterloo,new route for UW Station,15,919
+413,7,,King,Peak Trippers,9.28933978,Kitchener/Waterloo,"revised route Jun 24, 2019",15,889
+414,13,,Laurelwood,Northbound,11.27441085,Waterloo,"revised route Sep 4, 2023",15,900
+415,1,,Queen-River,Eastbound,39.99227658,Kitchener,"revised route Jun 24, 2019",15,949
+417,10,A,Pioneer (via Old Carriage),Northbound,8.02211723,Kitchener,,15,895
+418,4,,Glasgow-Margaret,Westbound,21.82859232,Kitchener/Waterloo,"revised route Jun 24, 2019",30,883
+420,9,,Lakeshore,Northbound,9.8192922,Waterloo,"revised route Jun 24, 2019",15,892
+422,51,B,Hespeler (via Melran),,30.29770984,Cambridge,,30,925
+423,29,,Keats-University,Southbound,17.18082121,Waterloo,"revised route Jun 24, 2019",30,918
+424,22,,Laurentian West,Westbound,11.03298713,Kitchener,"revised route Jun 24, 2019",30,911
+425,1,,Queen-River,Westbound,39.99227658,Kitchener,"revised route Jun 24, 2019",15,880
+426,3,,Ottawa South,Eastbound,18.24739561,Kitchener,"revised route Jun 24, 2019",30,950
+427,10,,Pioneer (via Mill Park),Southbound,8.45203488,Kitchener,,15,897
+428,6,,Bridge-Courtland,Southbound,18.93261406,Kitchener/Waterloo,"revised route Jun 24, 2019",30,886
+429,21,,Elmira,Northbound,14.65983348,Waterloo/Woolwich,,30,908
+430,9,,Lakeshore,Southbound,9.66713856,Waterloo,"revised route Sep 4, 2023",15,893
+431,3,,Ottawa South,Westbound,18.24739561,Kitchener,"revised route Jun 24, 2019",30,882
+432,13,,Laurelwood,Southbound,11.0116293,Waterloo,,15,901
+433,202,iXpress,University,Westbound,18277.59711354,Waterloo,,10,943
+434,76,busPLUS,Doon Mills (to OLCR),Northbound,5.32508647,Kitchener,"revised route Sep 2, 2019",30,938
+435,5,,Erb (via Erb St E),Eastbound,13.52451619,Kitchener/Waterloo,,30,885
+436,7,,King,Northbound,27.87437028,Kitchener/Waterloo,"revised route Jun 24, 2019",15,888
+437,33,,Huron,Eastbound,31.06468495,Kitchener,,30,957
+438,27,,Chicopee,Eastbound,9.62671414,Kitchener,"revised route Jun 24, 2019",30,914
+439,20,,Victoria-Frederick,Eastbound,32.83997559,Kitchener,"revised route Jun 24, 2019",15,954
+440,34,,Bingemans,Eastbound,15.22550764,Kitchener,"revised route Jun 24, 2019",30,958
+441,205,iXpress,Ottawa,Eastbound,19.7292899,Kitchener,,15,971
+444,203,iXpress,Maple Grove,East-West,45737.21685852,Kitchener/Cambridge,,30,970
+445,302,ION,ION BUS,Southbound,41.60888937,Kitchener/Cambridge,,10,973
+447,5,,Erb (via Bridgeport Rd),Westbound,13.83456108,Kitchener/Waterloo,,30,884
+449,110,Express,College Express (to Faiway Stn.),Northbound,15.65206204,Kitchener,,15,940
+450,14,,Bathurst,Loop,4.60064352,Waterloo,"revised route Jun 24, 2019",15,902
+451,77,busPLUS,Wilmot,Eastbound,40.47720612,Kitchener/Wilmot,,30,967
+453,27,,Chicopee,Westbound,9.62671414,Kitchener,"revised route Jun 24, 2019",30,956
+454,205,iXpress,Ottawa,Westbound,19.7292899,Kitchener,,15,946
+456,28,,Franklin North,Northbound,5.56433448,Kitchener,"new route Jun 24, 2019",40,915
+459,202,iXpress,University,Eastbound,18124.91361578,Waterloo,,10,942
+460,110,Express,College Express (from Fairway Stn.),Southbound,8.25684935,Kitchener,,,975
+461,35,,Greenbrook,Eastbound,7.99034408,Kitchener,"New route Sep 4, 2023",30,993
+462,53,,Franklin,Southbound,11.35825617,Cambridge,"revised route Sep 4, 2023",30,978
+463,65,,Saginaw,Eastbound-Westbound,15.78992111,Cambridge,"new route Sep 4, 2023",30,983
+464,53,A,Franklin,Southbound,13.00868292,Cambridge,"revised route Sep 4, 2023",30,981
+465,50,,Dundas-Myers,Northbound,17.89641955,Cambridge,"revised route Sep 4, 2023",30,976
+466,50,,Dundas-Myers,Southbound,17.70097953,Cambridge,"revised route Sep 4, 2023",30,977
+467,53,,Franklin,Northbound,11.51026173,Cambridge,"revised route Sep 4, 2023",30,979
+468,35,,Greenbrook,Westbound,7.99034408,Kitchener,"New route Sep 4, 2023",30,992
+469,63,,Champlain,Loop,9.58329361,Cambridge,"revised route Sep 4, 2023",30,987
+470,53,A,Franklin,Northbound,13.03615504,Cambridge,"revised route Sep 4, 2023",30,980
+471,58,,Elgin North,Northbound,8.11663313,Cambridge,"revised route Sep 4, 2023",30,982
+472,60,,Burnett,Eastbound-Westbound,9.81802552,Cambridge,"revised route Sep 4, 2023",30,984
+473,58,,Elgin North,Southbound,8.1097533,Cambridge,"revised route Sep 4, 2023",30,986
+474,91,,Late Night Loop,Northbound,11.41050292,Waterloo/Kitchener,"New route Sep 2, 2024",30,997
+475,78,busPLUS,Fountain,Southbound,7.6140139,Woolwich/Cambridge,"New route Sep 2, 2024",30,995
+476,78,busPLUS,Fountain,Northbound,7.91325849,Woolwich/Cambridge,"New route Sep 2, 2024",30,996
+477,91,,Late Night Loop,Southbound,7.01487554,Waterloo/Kitchener,"New route Sep 2, 2024",30,998
+478,62,,Speedsville,Loop,10.69577852,Kitchener/Cambridge,"New route Sep 2, 2024",30,994

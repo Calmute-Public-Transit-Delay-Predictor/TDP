@@ -1,0 +1,36 @@
+﻿X,Y,OBJECTID,StopName,Municipality,StopLocation,StopStatus,Stage1,Stage2,Phase,StopDirection
+538042.375,4816242.0,1,Conestoga,Waterloo,Curbside,Constructed,LRT,LRT,1,Bi-Directional
+536930.4375,4816133.0,2,Northfield,Waterloo,Rail Corridor,Constructed,LRT,LRT,1,Bi-Directional
+536782.5625,4814401.0,3,Research and Technology,Waterloo,Rail Corridor,Constructed,LRT,LRT,1,Bi-Directional
+537110.625,4813471.5,4,University of Waterloo,Waterloo,Rail Corridor,Constructed,LRT,LRT,1,Bi-Directional
+537660.125,4812988.0,5,Laurier - Waterloo Park,Waterloo,Rail Corridor,Constructed,LRT,LRT,1,Bi-Directional
+538586.5,4812469.5,6,Waterloo Public Square,Waterloo,Rail Corridor,Constructed,LRT,LRT,1,Northbound
+538557.0,4812247.5,7,Willis Way,Waterloo,Median,Constructed,LRT,LRT,1,Southbound
+538963.625,4811993.5,8,Allen,Waterloo,Centre,Constructed,LRT,LRT,1,Bi-Directional
+539475.3125,4811713.0,9,Grand River Hospital,Kitchener,Centre,Constructed,LRT,LRT,1,Bi-Directional
+540523.6875,4811263.0,10,Central Station - Innovation District,Kitchener,Dual Curbside,Constructed,LRT,LRT,1,Bi-Directional
+541198.375,4811128.5,11,Kitchener City Hall,Kitchener,Curbside,Constructed,LRT,LRT,1,Northbound
+540964.5,4810933.5,12,Victoria Park,Kitchener,Curbside,Constructed,LRT,LRT,1,Southbound
+541479.625,4810877.0,13,Frederick,Kitchener,Centre,Constructed,LRT,LRT,1,Northbound
+541312.25,4810762.5,14,Queen,Kitchener,Curbside,Constructed,LRT,LRT,1,Southbound
+541785.6875,4810506.5,15,Kitchener Market,Kitchener,Centre,Constructed,LRT,LRT,1,Bi-Directional
+542257.0,4809097.5,16,Mill,Kitchener,Rail Corridor,Constructed,LRT,LRT,1,Bi-Directional
+543462.0625,4807910.5,17,Block Line,Kitchener,Curbside,Constructed,LRT,LRT,1,Bi-Directional
+545184.875,4807866.5,18,Fairway,Kitchener,Hydro Corridor,Constructed,LRT,LRT,1,Bi-Directional
+549133.9686,4806557.7685,19,Sportsworld,Kitchener,Off Road,Planned,aBRT,,1,Bi-Directional
+554406.7894,4806257.2129,20,Pinebush (Southbound),Cambridge,Curbside,Constructed,aBRT,,1,Southbound
+554991.3164,4803845.2673,21,Can-Amera (Southbound),Cambridge,Curbside,Constructed,aBRT,,1,Southbound
+555183.3557,4802565.6767,22,Delta (Southbound),Cambridge,Curbside,Constructed,aBRT,,1,Southbound
+554997.2377,4803944.8471,23,Can-Amera (Northbound),Cambridge,Curbside,Constructed,aBRT,,1,Northbound
+555236.0547,4802448.5696,24,Delta (Northbound),Cambridge,Curbside,Constructed,aBRT,,1,Northbound
+554827.2547,4804657.9041,25,Cambridge Centre Mall,Cambridge,Curbside,Constructed,aBRT,,1,Northbound
+554430.7453,4806300.2496,26,Pinebush (Northbound),Cambridge,Curbside,Constructed,aBRT,,1,Northbound
+542453.4375,4810078.5,27,Borden,Kitchener,Centre,Constructed,LRT,LRT,1,Bi-Directional
+555615.5819,4800728.286,28,Ainslie St Terminal,Cambridge,Off Road,Constructed,aBRT,,1,Bi-Directional
+548711.4346,4806445.4719,29,Sportsworld (LRT),Kitchener,Centre,Planned,,LRT,2,Bi-Directional
+551473.7441,4805265.8179,30,Preston (LRT),Cambridge,Off Road,Planned,,LRT,2,Bi-Directional
+554470.6241,4806063.1978,31,Pinebush (LRT),Cambridge,Centre,Planned,,LRT,2,Bi-Directional
+554825.5485,4804600.2324,32,Cambridge Centre Mall (LRT),Cambridge,Centre,Planned,,LRT,2,Bi-Directional
+554991.8345,4803912.8432,33,Can-Amera (LRT),Cambridge,Centre,Planned,,LRT,2,Bi-Directional
+555229.6512,4802822.8182,34,Delta (LRT),Cambridge,Centre,Planned,,LRT,2,Bi-Directional
+555759.6198,4800802.0379,35,Cambridge Terminus (LRT),Cambridge,Rail Corridor,Planned,,LRT,2,Bi-Directional
