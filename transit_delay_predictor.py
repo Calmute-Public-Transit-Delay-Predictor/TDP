@@ -1,23 +1,21 @@
+# Import libraries
+import streamlit as st  # Web app framework
+import pandas as pd     # Data handling
+import random          # Random numbers
+from datetime import datetime  # Time functions
 
-# Import the libraries we need
-import streamlit as st  # This creates our web app
-import pandas as pd     # This reads our CSV data files
-import random          # This creates random numbers
-from datetime import datetime  # This gets current time
-
-# Set up the page
+# Page setup
 st.set_page_config(
     page_title="🚌 Bus Delay Predictor",
     page_icon="🚌",
     layout="wide"
 )
 
-# Function to load our bus data
-@st.cache_data  # This makes the app faster by remembering the data
+# Load bus data from CSV files
+@st.cache_data  # Cache for better performance
 def load_bus_data():
-    """Load the bus route information from CSV files"""
+    """Load bus route and stop data"""
     try:
-        # Read the CSV files
         routes = pd.read_csv('GRT_Routes (1).csv')
         stops = pd.read_csv('GRT_Stops (1).csv')
         return routes, stops
@@ -25,58 +23,50 @@ def load_bus_data():
         st.error("❌ Could not find the CSV files! Make sure they're in the same folder.")
         return None, None
 
-# Function to get current weather (simulated)
+# Simulate weather conditions
 def get_current_weather():
-    """Get today's weather condition"""
-    # In a real app, this would connect to a weather API
-    # For now, we'll randomly pick weather conditions
+    """Get random weather and its delay impact"""
     weather_options = [
-        ("☀️ Sunny", 1.0),           # Perfect weather = no delay
-        ("☁️ Cloudy", 1.1),          # Slightly cloudy = 10% more delay  
-        ("🌧️ Light Rain", 1.3),      # Light rain = 30% more delay
-        ("⛈️ Heavy Rain", 1.6),       # Heavy rain = 60% more delay
-        ("❄️ Snow", 1.8),            # Snow = 80% more delay
-        ("🧊 Ice/Freezing", 2.0)     # Ice = doubles the delay!
+        ("☀️ Sunny", 1.0),           # No delay
+        ("☁️ Cloudy", 1.1),          # 10% more delay  
+        ("🌧️ Light Rain", 1.3),      # 30% more delay
+        ("⛈️ Heavy Rain", 1.6),       # 60% more delay
+        ("❄️ Snow", 1.8),            # 80% more delay
+        ("🧊 Ice/Freezing", 2.0)     # 100% more delay
     ]
     
-    # Pick random weather
     weather_name, delay_factor = random.choice(weather_options)
     return weather_name, delay_factor
 
-# Function to check if it's rush hour
+# Check if it's rush hour
 def is_rush_hour():
-    """Check if it's currently rush hour"""
+    """Check if current time is rush hour"""
     current_hour = datetime.now().hour
     
-    # Rush hour times: 7-9 AM and 4-6 PM
+    # Rush hour: 7-9 AM and 4-6 PM
     if (7 <= current_hour <= 9) or (16 <= current_hour <= 18):
         return True, "⏰ Rush Hour", 1.4  # 40% more delay
     else:
         return False, "😌 Regular Time", 1.0  # Normal delay
 
-# Function to predict bus delay
+# Calculate bus delay
 def predict_delay(route_number, route_name, route_length):
-    """Calculate how late the bus might be"""
+    """Calculate expected bus delay"""
     
-    # Step 1: Calculate base delay (longer routes = more delays)
-    base_delay = route_length * 0.3  # 0.3 minutes per kilometer
+    # Base delay: longer routes = more delays
+    base_delay = route_length * 0.3  # 0.3 minutes per km
     
-    # Step 2: Get weather impact
+    # Get weather and time factors
     weather, weather_factor = get_current_weather()
-    
-    # Step 3: Check rush hour impact
     is_rush, time_period, time_factor = is_rush_hour()
     
-    # Step 4: Add random factors (construction, accidents, etc.)
-    random_factor = random.uniform(0.7, 1.8)  # Between 70% and 180%
+    # Add random factors (construction, accidents, etc.)
+    random_factor = random.uniform(0.7, 1.8)
     
-    # Step 5: Calculate total delay
+    # Calculate total delay
     total_delay = base_delay * weather_factor * time_factor * random_factor
-    
-    # Round to whole minutes
     delay_minutes = round(total_delay)
     
-    # Return all the information
     return {
         'delay_minutes': delay_minutes,
         'weather': weather,
@@ -87,51 +77,49 @@ def predict_delay(route_number, route_name, route_length):
         'is_rush': is_rush
     }
 
-# Main app starts here
+# Main app
 def main():
     # App title
     st.title("🚌 Waterloo Region Bus Delay Predictor")
     st.write("Find out how late your bus might be today!")
     
-    # Load the bus data
+    # Load data
     routes_data, stops_data = load_bus_data()
     
     if routes_data is None:
-        st.stop()  # Stop here if we can't load data
+        st.stop()  # Stop if no data
     
-    # Show some basic info about our data
+    # Sidebar info
     st.sidebar.header("📊 Data Info")
     st.sidebar.write(f"📍 Total bus routes: {len(routes_data)}")
     st.sidebar.write(f"🚏 Total bus stops: {len(stops_data)}")
     
-    # Create two columns for layout
+    # Create two columns
     col1, col2 = st.columns([1, 1])
     
     with col1:
         st.header("🔍 Select Your Bus Route")
         
-        # Get unique routes for dropdown
+        # Prepare route options
         unique_routes = routes_data[['Route', 'FullName']].drop_duplicates()
         unique_routes = unique_routes.sort_values('Route')
         
-        # Create dropdown options
         route_options = {}
         for _, row in unique_routes.iterrows():
             route_options[f"Route {row['Route']} - {row['FullName']}"] = row['Route']
         
-        # Dropdown to select route
+        # Route selection dropdown
         selected_route_text = st.selectbox(
             "Choose your bus route:",
             options=list(route_options.keys()),
             help="Pick the bus route you want to take"
         )
         
-        # Get the route number
         selected_route = route_options[selected_route_text]
         
-        # Button to predict delay
+        # Predict button
         if st.button("🔮 Predict My Bus Delay!", type="primary"):
-            # Find route information
+            # Get route info
             route_info = routes_data[routes_data['Route'] == selected_route].iloc[0]
             route_name = route_info['FullName']
             route_length = route_info['Length']
@@ -139,7 +127,7 @@ def main():
             # Make prediction
             prediction = predict_delay(selected_route, route_name, route_length)
             
-            # Store prediction in session state so it persists
+            # Store in session state
             st.session_state.prediction = prediction
             st.session_state.route_info = {
                 'number': selected_route,
@@ -150,27 +138,27 @@ def main():
     with col2:
         st.header("📈 Current Conditions")
         
-        # Show current time
+        # Current time
         current_time = datetime.now().strftime("%I:%M %p")
         st.metric("🕐 Current Time", current_time)
         
-        # Show if it's rush hour
+        # Rush hour status
         is_rush, time_period, time_factor = is_rush_hour()
         rush_color = "🔴" if is_rush else "🟢"
         st.metric("⏰ Traffic Status", f"{rush_color} {time_period}")
         
-        # Show simulated weather
+        # Weather
         weather, weather_factor = get_current_weather()
         st.metric("🌤️ Weather Impact", weather)
     
-    # Show prediction results if available
+    # Show prediction results
     if 'prediction' in st.session_state:
         st.header("🎯 Your Bus Delay Prediction")
         
         prediction = st.session_state.prediction
         route_info = st.session_state.route_info
         
-        # Main delay result
+        # Determine delay status
         delay = prediction['delay_minutes']
         if delay <= 2:
             status_color = "🟢"
@@ -185,17 +173,16 @@ def main():
             status_color = "🔴"
             status_text = "VERY LATE"
         
-        # Big delay display
+        # Display delay
         st.metric(
             label=f"{status_color} Route {route_info['number']} - {route_info['name']}",
             value=f"{delay} minutes late",
             delta=f"Status: {status_text}"
         )
         
-        # Explanation section
+        # Explanation
         st.subheader("🧠 Why This Prediction?")
         
-        # Create columns for explanation
         exp_col1, exp_col2 = st.columns([1, 1])
         
         with exp_col1:
@@ -227,10 +214,9 @@ def main():
             st.write("• Extra passengers")
             st.write("• Driver breaks")
         
-        # Visual breakdown
+        # Delay breakdown chart
         st.subheader("📊 Delay Breakdown")
         
-        # Create a simple chart showing delay factors
         factors = {
             'Base Route Delay': prediction['base_delay'],
             'Weather Effect': prediction['base_delay'] * (prediction['weather_factor'] - 1),
@@ -238,14 +224,14 @@ def main():
             'Random Factors': delay - prediction['base_delay'] * prediction['weather_factor'] * prediction['time_factor']
         }
         
-        # Remove negative values for cleaner display
+        # Remove negative values
         factors = {k: max(0, v) for k, v in factors.items()}
         
-        # Display as bar chart
+        # Show chart
         if sum(factors.values()) > 0:
             st.bar_chart(factors)
         
-        # Tips section
+        # Tips for users
         st.subheader("💡 Tips for Your Journey")
         
         if delay <= 2:
@@ -257,10 +243,10 @@ def main():
         else:
             st.error("🚨 Significant delays likely. Consider alternate routes or leave much earlier.")
         
-        # Show when to leave
+        # Departure recommendation
         if delay > 2:
             st.info(f"💡 **Recommendation:** Leave {delay + 5} minutes earlier than usual to arrive on time!")
 
 # Run the app
 if __name__ == "__main__":
-    main() 
+    main()
